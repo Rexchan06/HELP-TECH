@@ -1,0 +1,60 @@
+body{
+    background-color: beige;   
+}
+
+h1{
+  padding-left: 65px;
+  padding-top: 30px; ;
+  color:peru ;
+}
+
+h2{padding-left: 15px;
+color: peru;
+background-color: moccasin;
+width:1205px;
+height: 26px;
+margin-left: 65px;
+margin-right:65px;
+;
+  
+}
+.number{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 67px;
+  color:salmon ;
+}
+ h3{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+  padding-left: 65px;
+  color: peru;
+   
+    
+ }
+ .CSS{
+  color:salmon;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+  padding-left: 66px;
+  padding-right: 66px;
+}
+.timeline-main-container {
+  border-left: 3px solid peru;
+  margin-left: 50px;
+}
+
+.xyz::before {
+  content: "";
+  border-radius: 50%;
+  height: 20px; /* Changed */
+  width: 20px; /* Changed */
+  background-color: brown;
+  position: absolute; /* Added */
+  left: -63px; /* Added */
+
+}
+
+.xyz {
+  margin-left: 50px;
+  position: relative; /* Added */
+}
