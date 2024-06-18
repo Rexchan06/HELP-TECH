@@ -1,0 +1,217 @@
+body {
+    overflow-x: hidden !important;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 90vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.60;
+    z-index: 1;
+  }
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 3.5em !important;
+}
+
+.custom-shop-btn:hover {
+  a {
+    color: white !important;
+  }
+    background-color: transparent !important;
+}
+
+.learn-more:hover {
+    color:gray !important;
+}
+
+.featured-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crafts-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  gap: 1.7rem;
+  text-align: center;
+}
+
+.crafts{
+  padding: 90px 12% 20px;
+}
+
+.crafts-box img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.crafts-box h4{
+  margin: 8px 0px;
+  font-size: 17px;
+  font-weight: 700;
+  /*color: rgb(245, 155, 122);*/
+}
+
+.crafts-box:hover{
+     transform: translateY(-8px);
+     cursor: pointer;
+}
+
+.crafts-box{
+  transition: all .50s ease;
+  border-radius: 50px;
+ 
+}
+
+.crafts-box h5{
+  margin: 8px;
+  font-size: 14px;
+  /*color: rgb(245, 155, 122);*/
+}
+
+.crafts-box img{
+  border-radius: 10%;
+}
+
+.crafts-btn{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /*color: rgb(247, 141, 122);*/
+}
+
+.crafts-btn:hover{
+  color: rgb(94, 88, 85);  
+}
+
+.crafts-box a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.crafts-box img:hover{
+  box-shadow: 0 0 10px white;
+}
+
+@media (max-width:576px) {
+  .crafts-box img {
+      max-width: 200px !important;
+      max-height: 200px !important;
+  }
+}
+
+@media (max-width:768px) {
+  .crafts-box img {
+      max-width: 300px !important;
+      max-height: 300px !important;
+  }
+}
+
+@media (max-width:770px) {
+    .left-wings {
+        display: none;
+    }
+    .right-wings {
+        display: none;
+    }
+}
+
+.carousel-inner {
+    max-height: 500px; /* Adjust the height as needed */
+  }
+  
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+.custom-img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover !important;
+  text-align: left !important;
+}
+
+#about-us {
+  transform: scale(1.2);
+}
+
+.custom-link a {
+  transition: transform 0.3s ease !important;
+}
+
+.custom-link:hover {
+  font-size: 16.7px !important;
+}
+
+#contact {
+  border-radius: 25px !important;
+}
+
+.custom-send-btn:hover {
+  a {
+    color: white !important;
+  }
+  background-color: transparent !important;
+}
+
+.custom-font-size {
+  transform: scale(1.13);
+}
+
+.footer{
+  background-color: #000000;
+}
+
+.footer-container{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.footer-bottom{
+  background-color: #000000;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-weight: bold;
+  color:white;
+}

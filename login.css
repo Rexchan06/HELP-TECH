@@ -1,0 +1,132 @@
+body {
+    background: #D3D3D3 !important;
+}
+
+.container1 {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, sans-serif !important;
+    background: #a3a1a1 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    width: 400px !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+/*.container1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    background: #a3a1a1 !important;
+}
+
+.container1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    width: 400px !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+*/
+.form-container1 {
+    width: 100% !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.form-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 200%;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 10px;
+}
+
+.custom-btn:hover {
+    background: #0056b3;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-a:hover {
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #000000;
+  }
+  
+/*.footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+}*/
+  
+.footer-bottom{
+    background-color: #000000;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+  
+.footer-bottom p{
+    font-weight: bold;
+    color:white;
+}
