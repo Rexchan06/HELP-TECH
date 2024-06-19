@@ -120,6 +120,7 @@ p {
 }*/
   
 .footer-bottom{
+    width: 100% !important;
     background-color: #000000;
     padding: 20px;
     padding-bottom: 10px;
